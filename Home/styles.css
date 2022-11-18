@@ -21,7 +21,7 @@ p {
 
 .flex {
   display: flex;
-  gap: 0.25rem;
+  gap: 4rem;
 }
 
 .flex-center {
@@ -51,7 +51,6 @@ p {
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
@@ -68,12 +67,25 @@ a.link:hover {
   top: 0;
   left: 0;
   height: fit-content;
-  max-height: 14vh;
+  max-height: 20vh;
   width: calc(100% - 1.5rem);
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-top: 3rem;
+  font-size: 18px;
+  color: rgb(31, 30, 30);
+}
+
+.ltopbar-one ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.ltopbar-two ul {
+  display: flex;
+  gap: 1rem;
 }
 
 .ltopbar ul {
@@ -81,7 +93,6 @@ a.link:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 0.75rem;
   padding: 0;
 }
 
@@ -107,6 +118,101 @@ a.link:hover {
 
 .btn:active {
   transform: scale(0.9);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 25rem;
+}
+
+.container-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 5rem;
+  margin-bottom: 0;
+}
+
+.container-icon_curv {
+  display: flex;
+  align-self: flex-end;
+  margin: 4rem;
+}
+
+.container-icon_curv img {
+  width: 30rem;
+}
+
+.container-font_som {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 3;
+  margin: 3.3rem 5rem;
+}
+
+.container-font_som img {
+  height: 8rem;
+}
+
+.container-font_hack {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 17rem;
+  margin-bottom: 5.8rem;
+}
+
+.container-font_hack img {
+  height: 8rem;
+}
+
+.container-icon_oval {
+  margin-top: -10rem;
+}
+
+.container-icon_oval img {
+  width: 17rem;
+}
+
+.container-int {
+  width: 30rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sub-container {
+  margin: 4rem;
+  margin-top: 0;
+}
+.sub-container p {
+  font-size: 40px;
+  text-decoration: underline;
+  line-height: 4rem;
+}
+
+footer {
+  height: 4rem;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+footer p {
+  color: #eeeeee;
+  margin-left: 4rem;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .hero {
