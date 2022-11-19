@@ -11,7 +11,6 @@ body {
   height: fit-content;
 }
 
-
 h1,
 h2,
 h3,
@@ -64,7 +63,7 @@ a.link {
 }
 
 a.link:hover {
-  text-decoration: underline ;
+  text-decoration: underline;
   color: #000;
 }
 
@@ -80,17 +79,16 @@ a.link:hover {
   justify-content: space-around;
   padding-top: 3rem;
   font-size: 18px;
-  color:rgb(31, 30, 30)
+  color: rgb(31, 30, 30);
 }
 .ltopbar-one {
   ul {
     display: flex;
-  gap: 2rem;
+    gap: 2rem;
   }
-  
 }
 .ltopbar-two {
-  ul{
+  ul {
     display: flex;
     gap: 1rem;
   }
@@ -122,12 +120,10 @@ a.link:hover {
   text-decoration: underline black;
   color: $font-color;
   filter: brightness(1.4);
-
 }
 
 .btn:active {
   transform: scale(0.9);
-
 }
 
 .container {
@@ -136,55 +132,54 @@ a.link:hover {
   align-items: center;
   height: 25rem;
 }
- .container-sub{
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
-margin-top: 5rem;
-margin-bottom: 0;
- }
+.container-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 5rem;
+  margin-bottom: 0;
+}
 .container-icon_curv {
   display: flex;
   align-self: flex-end;
   margin: 4rem;
 }
 .container-icon_curv {
-  img{
+  img {
     width: 30rem;
   }
 }
-.container-font_som{
+.container-font_som {
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   z-index: 3;
   margin: 3.3rem 5rem;
 }
-.container-font_som{
-  img{
+.container-font_som {
+  img {
     height: 8rem;
   }
 }
 .container-font_hack {
   position: absolute;
-z-index: 3;
-display: flex;
-flex-direction: column;
-align-items:flex-end;
-justify-content: flex-end;
-margin-left: 17rem;
-margin-bottom: 5.8rem;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 17rem;
+  margin-bottom: 5.8rem;
 }
 .container-font_hack {
-  img{
+  img {
     height: 8rem;
   }
 }
 .container-icon_oval {
-  margin-top:-10rem;
-
+  margin-top: -10rem;
 }
 .container-icon_oval {
   img {
@@ -193,17 +188,17 @@ margin-bottom: 5.8rem;
 }
 .container-int {
   width: 30rem;
-  display:flex;
+  display: flex;
   flex-direction: row;
-  justify-content:flex-end;
-align-items: center;
+  justify-content: flex-end;
+  align-items: center;
 }
 .sub-container {
   margin: 4rem;
-  margin-top:0;
-  p{
+  margin-top: 0;
+  p {
     font-size: 40px;
-    text-decoration:underline ;
+    text-decoration: underline;
     line-height: 4rem;
   }
 }
@@ -214,13 +209,12 @@ footer {
   align-items: center;
   gap: 2rem;
 }
-footer{
-  p{
-    color:$main-color;
-    margin-left:4rem;
+footer {
+  p {
+    color: $main-color;
+    margin-left: 4rem;
     font-weight: bold;
-    font-size:25px;
-     ;
+    font-size: 25px;
   }
 }
 @mixin caja_personalizada($fondo: white) {
